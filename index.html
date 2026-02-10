@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Robotics Landing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">Robotics in Motion</h1>
+    <p class="site-subtitle">Interactive 3D animations showcasing modern robotic systems.</p>
+    <a class="cta" href="#scene">Explore</a>
+  </header>
+
+  <main>
+    <section id="scene" class="visual-section">
+      <div id="canvas-container"></div>
+    </section>
+
+    <section class="content">
+      <h2>About</h2>
+      <p>This landing page demonstrates an interactive, lightweight 3D robot animation implemented with Three.js. It focuses on performance, accessibility, and responsiveness.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Robotics</p>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.150.1/examples/js/controls/OrbitControls.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
